@@ -16,40 +16,40 @@ int main ()
 	  string word;
 	  string words[] =
 	  {
-		  "afghanistan",
-      "albania",
-      "algeria",
-      "argentina"	
-      "armenia"
-      "australia",	
-      "austria",	
-      "azerbaijan",	
-      "bahamas",		
-      "bangladesh',
-      "chile",
-      "china",
-      "colombia",
-      "denamrk",
-      "ecuador",
-      "egypt",
-      "finland",
-      "france",
-      "germany",
-      "ghana",
-      "greece",
-      "honduras",
-      "hungary",
-      "iceland",
-      "india",
-      "indonesia",
-      "iran",
-      "italy",
-      "jamaica",
-      "japan",
-      "kazakhstan",
-      "kenya",
-      "liechtenstein",
-      "lithuania",	
+		"afghanistan",
+      		"albania",
+      		"algeria",
+      		"argentina"	
+      		"armenia"
+      		"australia",	
+      		"austria",	
+      		"azerbaijan",	
+      		"bahamas",		
+      		"bangladesh',
+      		"chile",
+      		"china",
+      		"colombia",
+      		"denamrk",
+      		"ecuador",
+      		"egypt",
+      		"finland",
+      		"france",
+      		"germany",
+      		"ghana",
+      		"greece",
+      		"honduras",
+      		"hungary",
+      		"iceland",
+      		"india",
+      		"indonesia",
+      		"iran",
+      		"italy",
+      		"jamaica",
+      		"japan",
+      		"kazakhstan",
+      		"kenya",
+      		"liechtenstein",
+      		"lithuania",	
 	  };
 
 	  srand(time(NULL));
@@ -59,7 +59,7 @@ int main ()
 	  string unknown(word.length(),'*');
 
 	  cout << "\n\nWelcome to hangman...Guess a country Name";
-  	cout << "\n\nEach letter is represented by a star.";
+  	  cout << "\n\nEach letter is represented by a star.";
 	  cout << "\n\nYou have to type only one letter in one try";
 	  cout << "\n\nYou have " << MAX_TRIES << " tries to try and guess the word.";
 	  cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
